@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Roll Dice Section */
+#rollDice {
+    display: inline-block;
+    width: 500px;
+    height: 150px;
+    padding: 1rem;
+    background-color:coral;
+    border-radius: 8px;
+}
+
+/* Dice Appearance */
+.dice {
+    font-size: 3rem;
+    color: darkgreen;
+    background-color: white;
+    border: 1px solid black;
+    border-width: 0.25rem;
+    border-radius: 8px;
+    display: inline;
+    margin: 1rem;
+    padding: 0.25rem 0.75rem;
+    cursor: pointer;
+}
+
+/* Roll Button */
+#roll {
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    margin-bottom: 1.5rem;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Scoring Tables */
+table, th, td {
+    margin: 1rem;
+    padding: 1rem;
+    border-color: black;
+    border-style: solid;
+    border-radius: 8px;
+    
+}
+
+/* Upper scoring table */
+#upper {
+    margin-top: 2rem;
+    background-color: coral;
+    display: block;
+    width: 500px;
+    padding: 1rem;
+    border-radius: 8px;
+
+}
+
+
+.scores {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+}

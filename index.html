@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../yahtzee/style.css">
+  <title>JS Five Dice!</title>
+</head>
+<body onload="diceOnLoad()">
+  <main>
+   <!--Dice Tray-->
+    <h1>Javascript Five Dice!</h1>
+    <section id="rollDice">
+      <button type="button" id="roll">Let's Roll!</button>
+      <p id="die1" class="dice"></p>
+      <p id="die2" class="dice"></p>
+      <p id="die3" class="dice"></p>
+      <p id="die4" class="dice"></p>
+      <p id="die5" class="dice"></p>
+    </section>
+
+    <section id="count">
+      <p>Roll Count</p>
+      <p id="rollCountDisplay"></p>
+
+    </section>
+  <!--Upper Scores-->
+    <section id="upper">
+      <h2>Upper Scores</h2>
+      <table id="upperScores">
+        <tr>
+          <th class="scores">Die</th>
+          <th class="scores">Score</th>
+        </tr>
+
+        <tr>
+          <td class="scores">One</td>
+          <td id="upperOne"></td>
+        </tr>
+
+        <tr>
+          <td class="scores">Two</td>
+          <td id="upperTwo" class="scores"></td>
+        </tr>
+
+        <tr>
+          <td class="scores">Three</td>
+          <td id="upperThree" class="scores"></td>
+        </tr>
+
+        <tr>
+          <td class="scores">Four</td>
+          <td id="upperFour" class="scores"></td>
+        </tr>
+
+        <tr>
+          <td class="scores">Five</td>
+          <td id="upperFive" class="scores"></td>
+        </tr>
+
+        <tr>
+          <td class="scores">Six</td>
+          <td id="upperSix" class="scores"></td>
+        </tr>
+      </table>
+    </section>
+
+  </main>
+  
+  <script src="../yahtzee/script.js"></script>
+</body>
+</html>
